@@ -3,10 +3,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.1.0"
   spec.authors       = ["Guillermo Moreno"]
   spec.email         = ["gmq@guillermomoreno.cl"]
-  spec.description   = "TODO: Add a description"
-  spec.summary       = "TODO: Add a summary"
-  spec.homepage      = "TODO: Add a homepage"
-  spec.license       = "TODO: Add a license"
+  spec.summary       = "Handle Slack's interactive message payloads"
+  spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
