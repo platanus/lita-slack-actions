@@ -1,6 +1,7 @@
 # lita-slack-actions
 
-TODO: Add a description of the plugin.
+This plugin adds a generic route that receives the payload from an [interactive message](https://api.slack.com/interactive-messages) and triggers an event using the callback id.
+It's meant to be used with a lita-slack adapter [able to send messages with interactive attachments](https://github.com/litaio/lita-slack/pull/128).
 
 ## Installation
 
@@ -10,10 +11,6 @@ Add lita-slack-actions to your Lita instance's Gemfile:
 gem "lita-slack-actions"
 ```
 
-## Configuration
-
-TODO: Describe any configuration attributes the plugin exposes.
-
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+Send an interactive message with a callback_id of your choice and then add an [event route](https://docs.lita.io/plugin-authoring/handlers/#event-routes) for that id.
